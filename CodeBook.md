@@ -25,47 +25,50 @@ wearing a smartphone (Samsung Galaxy S II) on the waist.
 
 
 ## Features denotaions:  
-
-### t  
+**t**  
 Prefix 't' to denote time, and these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.  
-
-### f  
+**f**  
 Prefix 'f' to indicate frequency domain signals, where Fast Fourier Transform (FFT) was applied.  
-### BodyAcc  
+  
+  
+**BodyAcc**  
 from the accelerometer 3-axial raw signals tAcc-XYZ  
-### GravityAcc  
+**GravityAcc**  
 from the accelerometer 3-axial raw signals tAcc-XYZ  
-### BodyGyro  
+**BodyGyro**  
 from the gyroscope 3-axial raw signals tGyro-XYZ  
-
+    
 - **The signals were used to estimate variables of the feature vector for each pattern: '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.**  
 - **The raw signals tAcc-XYZ and tGyro-XYZ were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise.**  
 - **The acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz.**  
-
-### BodyAccJerk, BodyGyroJerk  
+  
+  
+**BodyAccJerk, BodyGyroJerk**  
 The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  
-
-### BodyAccMag, GravityAccMag, BodyAccJerkMag, BodyGyroMag, BodyGyroJerkMag  
+**BodyAccMag, GravityAccMag, BodyAccJerkMag, BodyGyroMag, BodyGyroJerkMag**  
 Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm.  
-
-### "mean"  
+  
+  
+**"mean"**  
 Mean value  
-### "std"  
+**"std" ** 
 Standard deviation  
-**Mean and standard deviation were estimated from the above variables.**  
-
-### angel:  
-Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+  
+- **Mean and standard deviation were estimated from the above variables.**  
+  
+  
+**angel:**  
+Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:  
 gravityMean(3-axis), tBodyAccMean, tBodyAccJerkMean, tBodyGyroMean, tBodyGyroJerkMean  
-
-
+  
+  
 ## Units:  
-### Acc:  
+**Acc:**  
 Values related to "Acc" (the acceleration signal from the smartphone accelerometer) are in standard gravity units 'g'.  
-### Gyro:  
+**Gyro:**  
 Values related to "Acc" (the angular velocity vector measured by the gyroscope) are radians/second.  
-
-
+  
+  
 ## Total list of 86 features:  
 tBodyAcc.mean...X  
 tBodyAcc.mean...Y  
