@@ -8,11 +8,11 @@ The following steps has been performed by "run_analysis.R":
 3. name each column of variables descriptively and label each row of observations appropriately
 4. extract out values of mean and standard deviation, and integrate each variables by activities per subject
 
-# Variable description:  
+# Variable descriptions:  
 ## Subject  
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years.  
 Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.  
-
+  
 ## Activity  
 Each person performed six activities:  
 1 WALKING  
@@ -22,13 +22,15 @@ Each person performed six activities:
 5 STANDING  
 6 LAYING  
 wearing a smartphone (Samsung Galaxy S II) on the waist.  
-
-
-## Features denotaions:  
+  
+  
+## Feature denotaions:  
 **t**  
 Prefix 't' to denote time, and these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.  
 **f**  
 Prefix 'f' to indicate frequency domain signals, where Fast Fourier Transform (FFT) was applied.  
+  
+  
   
   
 **BodyAcc**  
@@ -43,10 +45,14 @@ from the gyroscope 3-axial raw signals tGyro-XYZ
 - **The acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz.**  
   
   
+  
+  
 **BodyAccJerk, BodyGyroJerk**  
 The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  
 **BodyAccMag, GravityAccMag, BodyAccJerkMag, BodyGyroMag, BodyGyroJerkMag**  
 Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm.  
+  
+  
   
   
 **"mean"**  
@@ -57,9 +63,13 @@ Standard deviation
 - **Mean and standard deviation were estimated from the above variables.**  
   
   
-**angel:**  
+  
+  
+**angle:**  
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:  
 gravityMean(3-axis), tBodyAccMean, tBodyAccJerkMean, tBodyGyroMean, tBodyGyroJerkMean  
+  
+  
   
   
 ## Units:  
@@ -67,6 +77,9 @@ gravityMean(3-axis), tBodyAccMean, tBodyAccJerkMean, tBodyGyroMean, tBodyGyroJer
 Values related to "Acc" (the acceleration signal from the smartphone accelerometer) are in standard gravity units 'g'.  
 **Gyro:**  
 Values related to "Acc" (the angular velocity vector measured by the gyroscope) are radians/second.  
+  
+  
+  
   
   
 ## Total list of 86 features:  
