@@ -25,19 +25,19 @@ wearing a smartphone (Samsung Galaxy S II) on the waist.
   
   
 ## Feature denotaions:  
-**t**  
+**"t"**  
 Prefix 't' to denote time, and these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.  
-**f**  
+**"f"**  
 Prefix 'f' to indicate frequency domain signals, where Fast Fourier Transform (FFT) was applied.  
   
   
   
   
-**BodyAcc**  
+**"BodyAcc"**  
 from the accelerometer 3-axial raw signals tAcc-XYZ  
-**GravityAcc**  
+**"GravityAcc"**  
 from the accelerometer 3-axial raw signals tAcc-XYZ  
-**BodyGyro**  
+**"BodyGyro"**  
 from the gyroscope 3-axial raw signals tGyro-XYZ  
     
 - **The signals were used to estimate variables of the feature vector for each pattern: '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.**  
@@ -47,9 +47,9 @@ from the gyroscope 3-axial raw signals tGyro-XYZ
   
   
   
-**BodyAccJerk, BodyGyroJerk**  
+**"BodyAccJerk, BodyGyroJerk"**  
 The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  
-**BodyAccMag, GravityAccMag, BodyAccJerkMag, BodyGyroMag, BodyGyroJerkMag**  
+**"BodyAccMag, GravityAccMag, BodyAccJerkMag, BodyGyroMag, BodyGyroJerkMag"**  
 Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm.  
   
   
@@ -65,17 +65,17 @@ Standard deviation
   
   
   
-**angle:**  
-Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:  
+**"angle"**  
+Additional vectors obtained by averaging the signals in a signal window sample. These are used on the "angle()" variable:  
 gravityMean(3-axis), tBodyAccMean, tBodyAccJerkMean, tBodyGyroMean, tBodyGyroJerkMean  
   
   
   
   
 ## Units:  
-**Acc:**  
+**"Acc"**  
 Values related to "Acc" (the acceleration signal from the smartphone accelerometer) are in standard gravity units 'g'.  
-**Gyro:**  
+**"Gyro"**  
 Values related to "Acc" (the angular velocity vector measured by the gyroscope) are radians/second.  
   
   
