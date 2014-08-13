@@ -57,7 +57,7 @@ Also the magnitude of these three-dimensional signals were calculated using the 
   
 **"mean"**  
 Mean value  
-**"std" ** 
+**"std"**  
 Standard deviation  
   
 - **Mean and standard deviation were estimated from the above variables.**  
