@@ -76,7 +76,7 @@ gravityMean(3-axis), tBodyAccMean, tBodyAccJerkMean, tBodyGyroMean, tBodyGyroJer
 **"Acc"**  
 Values related to "Acc" (the acceleration signal from the smartphone accelerometer) are in standard gravity units 'g'.  
 **"Gyro"**  
-Values related to "Acc" (the angular velocity vector measured by the gyroscope) are radians/second.  
+Values related to "Gyro" (the angular velocity vector measured by the gyroscope) are radians/second.  
   
   
   
